@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center ;
+
+}
+
+.logo-container{
+    flex: 2;
+    text-align: left;
+    
+    
+    
+}
+
+.logo{
+    
+    color: #DEB887;
+    font-weight: 200;
+
+    
+    
+
+}
+.subtext{
+   
+    color: #404040;
+    font-weight: 100;
+    
+}
+
+nav{
+
+    flex: 2;
+
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+
+.nav-link{
+
+    color: #5f5f79;
+    font-size: 17px;
+    text-decoration: none;
+    
+
+}
+
+.page-title{
+    color: #5f5f79;
+    text-align : left;
+}
+
+.introduction{
+    color: #5f5f79;
+    text-align: center;
+
+}
+
+.cover img {
+    padding-top: 50px;
+    height : 60vh;
+    width : 70%;
+    
+}
+
+.intro-text{
+    padding-top: 30px;
+
+}
+
+.button{
+    background: #DEB887;
+    height: 40px;
+    width: 100px;
+    
+}
+
+
+.container{
+
+    width: 80%;
+    margin :auto;
+    overflow: hidden;
+    margin-top: 60px;
+    text-align: center;
+
+    
+}
+.box{
+    
+    
+    width: 30%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+    
+    
+}
+.box img{
+    height: 240px;
+    width : 90%;
+    border-radius: 15px;
+
+    
+}
+.poem-container{
+    text-align: center;
+
+
+}
+.poem-header{
+    float: center;
+    color: #404040;
+    padding-top: 40px;
+    text-align: center;
+    
+
+
+}
+.poem{
+    padding-top: 20px;
+    font-size: 17px;
+    color: #5f5f79;
+    display: inline-block;
+    text-align: left;
+    
+
+
+}
+
+.signup{
+    text-align: center;
+    color: #5f5f79;
+    padding-top: 20px;
+
+}
+
+
